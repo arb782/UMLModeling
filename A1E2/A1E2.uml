@@ -217,7 +217,7 @@
 					<POUserIDFormats>
 						<POUserIDFormat digits="2" guid="false" id="AkTWST6GAqAMAR5f" lastNumericValue="0" modelType="BPMNElement" prefix="BP" suffix=""/>
 						<POUserIDFormat digits="2" guid="false" id="QkTWST6GAqAMAR5g" lastNumericValue="6" modelType="Actor" prefix="AC" suffix=""/>
-						<POUserIDFormat digits="2" guid="false" id="QkTWST6GAqAMAR5h" lastNumericValue="19" modelType="UseCase" prefix="UC" suffix=""/>
+						<POUserIDFormat digits="2" guid="false" id="QkTWST6GAqAMAR5h" lastNumericValue="20" modelType="UseCase" prefix="UC" suffix=""/>
 						<POUserIDFormat digits="3" guid="false" id="QkTWST6GAqAMAR5i" lastNumericValue="0" modelType="Requirement" prefix="REQ" suffix=""/>
 						<POUserIDFormat digits="3" guid="false" id="QkTWST6GAqAMAR5j" lastNumericValue="0" modelType="BusinessRule" prefix="BR" suffix=""/>
 						<POUserIDFormat digits="-1" guid="false" id="QkTWST6GAqAMAR5k" lastNumericValue="0" modelType="BusinessProcessDiagram" prefix="" suffix=""/>
@@ -13150,7 +13150,7 @@
 				<properties>
 					<property name="pmAuthor" type="string" value="marib"/>
 					<property name="pmCreateDateTime" type="string" value="1634544469894"/>
-					<property name="pmLastModified" type="string" value="1635035737516"/>
+					<property name="pmLastModified" type="string" value="1635100138475"/>
 					<property name="userIDLastNumericValue" type="int" value="0"/>
 					<property name="backlogActivityId" type="int" value="0"/>
 					<property name="stereotypes" type="stereotypes">
@@ -13193,11 +13193,11 @@
 					<qualityScore value="-1"/>
 				</xmi:Extension>
 			</extensionPoint>
-			<include addition="Jlnt9T6GAqAMAQi4" xmi:id="3A8d9T6GAqAMAQkE" xmi:type="uml:Include">
+			<generalization general="qFYuST6GAqAMASGT" xmi:id="sX2d9T6GAqAMAQkh" xmi:type="uml:Generalization">
 				<xmi:Extension extender="Visual Paradigm">
 					<qualityScore value="-1"/>
 				</xmi:Extension>
-			</include>
+			</generalization>
 		</packagedElement>
 		<packagedElement isAbstract="false" isLeaf="false" name="Incorporar oferta" xmi:id="gIJOST6GAqAMASEj" xmi:type="uml:UseCase">
 			<xmi:Extension extender="Visual Paradigm">
@@ -13260,7 +13260,7 @@
 				<properties>
 					<property name="pmAuthor" type="string" value="marib"/>
 					<property name="pmCreateDateTime" type="string" value="1634544606011"/>
-					<property name="pmLastModified" type="string" value="1635035737519"/>
+					<property name="pmLastModified" type="string" value="1635100138482"/>
 					<property name="userIDLastNumericValue" type="int" value="0"/>
 					<property name="backlogActivityId" type="int" value="0"/>
 					<property name="stereotypes" type="stereotypes">
@@ -13303,11 +13303,11 @@
 					<qualityScore value="-1"/>
 				</xmi:Extension>
 			</include>
-			<include addition="yC3t9T6GAqAMAQjT" xmi:id="4P8d9T6GAqAMAQkI" xmi:type="uml:Include">
+			<generalization general="qFYuST6GAqAMASGT" xmi:id="UPOd9T6GAqAMAQkl" xmi:type="uml:Generalization">
 				<xmi:Extension extender="Visual Paradigm">
 					<qualityScore value="-1"/>
 				</xmi:Extension>
-			</include>
+			</generalization>
 		</packagedElement>
 		<packagedElement isAbstract="false" isLeaf="false" name="Eliminar oferta" xmi:id="C7fOST6GAqAMASF5" xmi:type="uml:UseCase">
 			<xmi:Extension extender="Visual Paradigm">
@@ -13355,7 +13355,7 @@
 				<qualityScore value="-1"/>
 			</xmi:Extension>
 		</packagedElement>
-		<packagedElement isAbstract="false" isLeaf="false" name="Enviar notificacion" xmi:id="qFYuST6GAqAMASGT" xmi:type="uml:UseCase">
+		<packagedElement isAbstract="false" isLeaf="false" name="Avisar" xmi:id="qFYuST6GAqAMASGT" xmi:type="uml:UseCase">
 			<xmi:Extension extender="Visual Paradigm">
 				<isRoot xmi:value="false"/>
 				<ucRank value="0"/>
@@ -13365,7 +13365,7 @@
 				<properties>
 					<property name="pmAuthor" type="string" value="marib"/>
 					<property name="pmCreateDateTime" type="string" value="1634544675349"/>
-					<property name="pmLastModified" type="string" value="1635035792740"/>
+					<property name="pmLastModified" type="string" value="1635100138481"/>
 					<property name="userIDLastNumericValue" type="int" value="0"/>
 					<property name="backlogActivityId" type="int" value="0"/>
 					<property name="stereotypes" type="stereotypes">
@@ -13400,6 +13400,11 @@
 				</properties>
 				<qualityScore value="-1"/>
 			</xmi:Extension>
+			<include addition="46nxzT6GAqHgaUjU" xmi:id="GQ_xzT6GAqHgaUjz" xmi:type="uml:Include">
+				<xmi:Extension extender="Visual Paradigm">
+					<qualityScore value="-1"/>
+				</xmi:Extension>
+			</include>
 		</packagedElement>
 		<packagedElement isAbstract="false" isLeaf="false" name="Eliminar productos" xmi:id="SI3uST6GAqAMASHW" xmi:type="uml:UseCase">
 			<xmi:Extension extender="Visual Paradigm">
@@ -13771,24 +13776,24 @@
 				<qualityScore value="-1"/>
 			</xmi:Extension>
 		</packagedElement>
-		<packagedElement isAbstract="false" isLeaf="false" name="Enviar notificacion (nuevos productos)" xmi:id="Jlnt9T6GAqAMAQi4" xmi:type="uml:UseCase">
+		<packagedElement isAbstract="false" isLeaf="false" name="Enviar notificacion" xmi:id="46nxzT6GAqHgaUjU" xmi:type="uml:UseCase">
 			<xmi:Extension extender="Visual Paradigm">
 				<isRoot xmi:value="false"/>
 				<ucRank value="0"/>
 				<justification xmi:value=""/>
 				<businessModel xmi:value="false"/>
-				<useCaseId xmi:value="UC18"/>
+				<useCaseId xmi:value="UC20"/>
 				<properties>
 					<property name="pmAuthor" type="string" value="marib"/>
-					<property name="pmCreateDateTime" type="string" value="1635035617892"/>
-					<property name="pmLastModified" type="string" value="1635035792742"/>
+					<property name="pmCreateDateTime" type="string" value="1635100104135"/>
+					<property name="pmLastModified" type="string" value="1635100138478"/>
 					<property name="userIDLastNumericValue" type="int" value="0"/>
 					<property name="backlogActivityId" type="int" value="0"/>
 					<property name="stereotypes" type="stereotypes">
 						<modelRef value="UseCase_UseCase_id"/>
 					</property>
 					<property name="taggedValues" type="model">
-						<vpumlModel id="Flnt9T6GAqAMAQjA" modelType="TaggedValueContainer">
+						<vpumlModel id="M6nxzT6GAqHgaUjc" modelType="TaggedValueContainer">
 							<properties>
 								<property name="name" type="string" value=""/>
 								<property name="modelType" type="string" value="TaggedValueContainer"/>
@@ -13796,14 +13801,14 @@
 								<property name="subLevelTaggedValueCustomizedOrdering" type="boolean" value="false"/>
 							</properties>
 							<vpumlChildModelRefs>
-								<modelRef value="llnt9T6GAqAMAQjB"/>
-								<modelRef value="Vlnt9T6GAqAMAQjC"/>
-								<modelRef value="Vlnt9T6GAqAMAQjD"/>
-								<modelRef value="1lnt9T6GAqAMAQjE"/>
-								<modelRef value="1lnt9T6GAqAMAQjF"/>
-								<modelRef value="Nlnt9T6GAqAMAQjG"/>
-								<modelRef value="Nlnt9T6GAqAMAQjH"/>
-								<modelRef value="Nlnt9T6GAqAMAQjI"/>
+								<modelRef value="M6nxzT6GAqHgaUjd"/>
+								<modelRef value="M6nxzT6GAqHgaUje"/>
+								<modelRef value="M6nxzT6GAqHgaUjf"/>
+								<modelRef value="s6nxzT6GAqHgaUjg"/>
+								<modelRef value="s6nxzT6GAqHgaUjh"/>
+								<modelRef value="s6nxzT6GAqHgaUji"/>
+								<modelRef value="c6nxzT6GAqHgaUjj"/>
+								<modelRef value="c6nxzT6GAqHgaUjk"/>
 							</vpumlChildModelRefs>
 						</vpumlModel>
 					</property>
@@ -13816,62 +13821,6 @@
 				</properties>
 				<qualityScore value="-1"/>
 			</xmi:Extension>
-			<generalization general="qFYuST6GAqAMASGT" xmi:id="sX2d9T6GAqAMAQkh" xmi:type="uml:Generalization">
-				<xmi:Extension extender="Visual Paradigm">
-					<qualityScore value="-1"/>
-				</xmi:Extension>
-			</generalization>
-		</packagedElement>
-		<packagedElement isAbstract="false" isLeaf="false" name="Enviar notificacion (oferta)" xmi:id="yC3t9T6GAqAMAQjT" xmi:type="uml:UseCase">
-			<xmi:Extension extender="Visual Paradigm">
-				<isRoot xmi:value="false"/>
-				<ucRank value="0"/>
-				<justification xmi:value=""/>
-				<businessModel xmi:value="false"/>
-				<useCaseId xmi:value="UC19"/>
-				<properties>
-					<property name="pmAuthor" type="string" value="marib"/>
-					<property name="pmCreateDateTime" type="string" value="1635035624467"/>
-					<property name="pmLastModified" type="string" value="1635035792743"/>
-					<property name="userIDLastNumericValue" type="int" value="0"/>
-					<property name="backlogActivityId" type="int" value="0"/>
-					<property name="stereotypes" type="stereotypes">
-						<modelRef value="UseCase_UseCase_id"/>
-					</property>
-					<property name="taggedValues" type="model">
-						<vpumlModel id="KC3t9T6GAqAMAQjU" modelType="TaggedValueContainer">
-							<properties>
-								<property name="name" type="string" value=""/>
-								<property name="modelType" type="string" value="TaggedValueContainer"/>
-								<property name="customizedOrdering" type="boolean" value="false"/>
-								<property name="subLevelTaggedValueCustomizedOrdering" type="boolean" value="false"/>
-							</properties>
-							<vpumlChildModelRefs>
-								<modelRef value="KC3t9T6GAqAMAQjV"/>
-								<modelRef value="qC3t9T6GAqAMAQjW"/>
-								<modelRef value="qC3t9T6GAqAMAQjX"/>
-								<modelRef value="aC3t9T6GAqAMAQjY"/>
-								<modelRef value="aC3t9T6GAqAMAQjZ"/>
-								<modelRef value="aC3t9T6GAqAMAQja"/>
-								<modelRef value="aC3t9T6GAqAMAQjb"/>
-								<modelRef value="6C3t9T6GAqAMAQjc"/>
-							</vpumlChildModelRefs>
-						</vpumlModel>
-					</property>
-					<property name="qualityScore" type="int" value="-1"/>
-					<property name="taskPoolId" type="int" value="0"/>
-					<property name="descNameColumnWidth" type="int" value="0"/>
-					<property name="descValueColumnWidth" type="int" value="0"/>
-					<property name="scheduleRowHeight" type="int" value="24"/>
-					<property name="status" type="int" value="0"/>
-				</properties>
-				<qualityScore value="-1"/>
-			</xmi:Extension>
-			<generalization general="qFYuST6GAqAMASGT" xmi:id="UPOd9T6GAqAMAQkl" xmi:type="uml:Generalization">
-				<xmi:Extension extender="Visual Paradigm">
-					<qualityScore value="-1"/>
-				</xmi:Extension>
-			</generalization>
 		</packagedElement>
 		<packagedElement isAbstract="false" isDerived="false" isLeaf="false" memberEnd="fhT2ST6GAqAMASCz fhT2ST6GAqAMASC1" xmi:id="fhT2ST6GAqAMASCy" xmi:type="uml:Association">
 			<ownedEnd aggregation="none" association="fhT2ST6GAqAMASCy" isDerived="false" isDerivedUnion="false" isLeaf="false" isNavigable="true" isReadOnly="false" isStatic="false" type="rt22ST6GAqAMAR_3" xmi:id="fhT2ST6GAqAMASCz" xmi:type="uml:Property">
@@ -14411,7 +14360,7 @@
 					<ashowAllocatedTo value="true"/>
 					<apmAuthor value="marib"/>
 					<apmCreateDateTime value="1634544079540"/>
-					<apmLastModified value="1635035786876"/>
+					<apmLastModified value="1635100129470"/>
 					<ateamworkCreateDateTime value="0"/>
 					<ashowShapeLegend value="false"/>
 					<ashowConnectorLegend value="false"/>
@@ -14481,7 +14430,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="6"/>
 						<properties>
-							<azOrder value="6"/>
+							<azOrder value="4"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<aselectable value="true"/>
@@ -14521,7 +14470,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="6"/>
 						<properties>
-							<azOrder value="8"/>
+							<azOrder value="6"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<aselectable value="true"/>
@@ -14555,13 +14504,13 @@
 				</uml:DiagramElement>
 				<uml:DiagramElement geometry="741,57,152,40" preferredShapeType="UseCase" subject="So_eST6GAqAMASJ1" xmi:id="So_eST6GAqAMASJ0">
 					<xmi:Extension extender="Visual Paradigm">
-						<captionBounds value="0,0,152,40"/>
+						<captionBounds value="0,0,153,40"/>
 						<captionInternalWidth value="-2147483648"/>
 						<captionInternalHeight value="-2147483648"/>
 						<captionVisible value="true"/>
 						<captionSide value="6"/>
 						<properties>
-							<azOrder value="10"/>
+							<azOrder value="8"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<aselectable value="true"/>
@@ -14601,7 +14550,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="6"/>
 						<properties>
-							<azOrder value="12"/>
+							<azOrder value="10"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<aselectable value="true"/>
@@ -14641,7 +14590,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="6"/>
 						<properties>
-							<azOrder value="14"/>
+							<azOrder value="12"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<aselectable value="true"/>
@@ -14681,7 +14630,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="6"/>
 						<properties>
-							<azOrder value="16"/>
+							<azOrder value="14"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<aselectable value="true"/>
@@ -14721,7 +14670,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="4"/>
 						<properties>
-							<azOrder value="18"/>
+							<azOrder value="16"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<acreatorDiagramType value="UseCaseDiagram"/>
@@ -14761,7 +14710,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="6"/>
 						<properties>
-							<azOrder value="20"/>
+							<azOrder value="18"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<aselectable value="true"/>
@@ -14793,7 +14742,7 @@
 					<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 					<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 				</uml:DiagramElement>
-				<uml:DiagramElement geometry="825,650,100,40" preferredShapeType="UseCase" subject="qFYuST6GAqAMASGT" xmi:id="KFYuST6GAqAMASGS">
+				<uml:DiagramElement geometry="825,521,100,40" preferredShapeType="UseCase" subject="qFYuST6GAqAMASGT" xmi:id="KFYuST6GAqAMASGS">
 					<xmi:Extension extender="Visual Paradigm">
 						<captionBounds value="0,0,100,40"/>
 						<captionInternalWidth value="-2147483648"/>
@@ -14801,7 +14750,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="6"/>
 						<properties>
-							<azOrder value="22"/>
+							<azOrder value="20"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<aselectable value="true"/>
@@ -14841,7 +14790,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="6"/>
 						<properties>
-							<azOrder value="24"/>
+							<azOrder value="22"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<aselectable value="true"/>
@@ -14881,7 +14830,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="6"/>
 						<properties>
-							<azOrder value="26"/>
+							<azOrder value="24"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<aselectable value="true"/>
@@ -14921,7 +14870,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="6"/>
 						<properties>
-							<azOrder value="28"/>
+							<azOrder value="26"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<aselectable value="true"/>
@@ -14961,7 +14910,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="6"/>
 						<properties>
-							<azOrder value="30"/>
+							<azOrder value="28"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<aselectable value="true"/>
@@ -15001,7 +14950,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="6"/>
 						<properties>
-							<azOrder value="32"/>
+							<azOrder value="30"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<aselectable value="true"/>
@@ -15041,7 +14990,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="6"/>
 						<properties>
-							<azOrder value="34"/>
+							<azOrder value="32"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<aselectable value="true"/>
@@ -15081,7 +15030,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="6"/>
 						<properties>
-							<azOrder value="36"/>
+							<azOrder value="34"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<aselectable value="true"/>
@@ -15121,7 +15070,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="6"/>
 						<properties>
-							<azOrder value="38"/>
+							<azOrder value="36"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<aselectable value="true"/>
@@ -15161,7 +15110,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="6"/>
 						<properties>
-							<azOrder value="40"/>
+							<azOrder value="38"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<aselectable value="true"/>
@@ -15201,7 +15150,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="4"/>
 						<properties>
-							<azOrder value="42"/>
+							<azOrder value="40"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<acreatorDiagramType value="UseCaseDiagram"/>
@@ -15241,7 +15190,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="4"/>
 						<properties>
-							<azOrder value="44"/>
+							<azOrder value="42"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<acreatorDiagramType value="UseCaseDiagram"/>
@@ -15281,7 +15230,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="4"/>
 						<properties>
-							<azOrder value="46"/>
+							<azOrder value="44"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<acreatorDiagramType value="UseCaseDiagram"/>
@@ -15321,7 +15270,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="4"/>
 						<properties>
-							<azOrder value="48"/>
+							<azOrder value="46"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<acreatorDiagramType value="UseCaseDiagram"/>
@@ -15361,7 +15310,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="1"/>
 						<properties>
-							<azOrder value="50"/>
+							<azOrder value="48"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<aselectable value="true"/>
@@ -15400,7 +15349,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="1"/>
 						<properties>
-							<azOrder value="52"/>
+							<azOrder value="50"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<acreatorDiagramType value="UseCaseDiagram"/>
@@ -15472,7 +15421,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="1"/>
 						<properties>
-							<azOrder value="54"/>
+							<azOrder value="52"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<acreatorDiagramType value="UseCaseDiagram"/>
@@ -15544,7 +15493,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="1"/>
 						<properties>
-							<azOrder value="56"/>
+							<azOrder value="54"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<acreatorDiagramType value="UseCaseDiagram"/>
@@ -15616,7 +15565,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="1"/>
 						<properties>
-							<azOrder value="58"/>
+							<azOrder value="56"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<acreatorDiagramType value="UseCaseDiagram"/>
@@ -15688,7 +15637,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="1"/>
 						<properties>
-							<azOrder value="60"/>
+							<azOrder value="58"/>
 							<abackground value="Cr:255,255,255,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<acreatorDiagramType value="UseCaseDiagram"/>
@@ -15728,7 +15677,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="1"/>
 						<properties>
-							<azOrder value="62"/>
+							<azOrder value="60"/>
 							<abackground value="Cr:255,255,255,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<acreatorDiagramType value="UseCaseDiagram"/>
@@ -15768,7 +15717,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="1"/>
 						<properties>
-							<azOrder value="64"/>
+							<azOrder value="62"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<acreatorDiagramType value="UseCaseDiagram"/>
@@ -15840,7 +15789,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="1"/>
 						<properties>
-							<azOrder value="66"/>
+							<azOrder value="64"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<aselectable value="true"/>
@@ -15880,7 +15829,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="1"/>
 						<properties>
-							<azOrder value="68"/>
+							<azOrder value="66"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<acreatorDiagramType value="UseCaseDiagram"/>
@@ -15952,7 +15901,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="1"/>
 						<properties>
-							<azOrder value="70"/>
+							<azOrder value="68"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<aselectable value="true"/>
@@ -15991,7 +15940,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="1"/>
 						<properties>
-							<azOrder value="72"/>
+							<azOrder value="70"/>
 							<abackground value="Cr:255,255,255,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<acreatorDiagramType value="UseCaseDiagram"/>
@@ -16031,7 +15980,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="1"/>
 						<properties>
-							<azOrder value="74"/>
+							<azOrder value="72"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<acreatorDiagramType value="UseCaseDiagram"/>
@@ -16104,7 +16053,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="1"/>
 						<properties>
-							<azOrder value="76"/>
+							<azOrder value="74"/>
 							<abackground value="Cr:255,255,255,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<acreatorDiagramType value="UseCaseDiagram"/>
@@ -16144,7 +16093,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="1"/>
 						<properties>
-							<azOrder value="78"/>
+							<azOrder value="76"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<aselectable value="true"/>
@@ -16183,7 +16132,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="1"/>
 						<properties>
-							<azOrder value="80"/>
+							<azOrder value="78"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<acreatorDiagramType value="UseCaseDiagram"/>
@@ -16256,7 +16205,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="1"/>
 						<properties>
-							<azOrder value="82"/>
+							<azOrder value="80"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<acreatorDiagramType value="UseCaseDiagram"/>
@@ -16329,7 +16278,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="1"/>
 						<properties>
-							<azOrder value="84"/>
+							<azOrder value="82"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<aselectable value="true"/>
@@ -16368,7 +16317,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="1"/>
 						<properties>
-							<azOrder value="86"/>
+							<azOrder value="84"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<aselectable value="true"/>
@@ -16408,7 +16357,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="1"/>
 						<properties>
-							<azOrder value="88"/>
+							<azOrder value="86"/>
 							<abackground value="Cr:255,255,255,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<acreatorDiagramType value="UseCaseDiagram"/>
@@ -16448,7 +16397,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="1"/>
 						<properties>
-							<azOrder value="90"/>
+							<azOrder value="88"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<aselectable value="true"/>
@@ -16487,7 +16436,7 @@
 						<captionVisible value="true"/>
 						<captionSide value="1"/>
 						<properties>
-							<azOrder value="92"/>
+							<azOrder value="90"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<acreatorDiagramType value="UseCaseDiagram"/>
@@ -16551,49 +16500,91 @@
 					<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 					<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 				</uml:DiagramElement>
-				<uml:DiagramElement geometry="738,550,132,55" preferredShapeType="UseCase" subject="Jlnt9T6GAqAMAQi4" xmi:id="Jlnt9T6GAqAMAQi3">
+				<uml:DiagramElement fromDiagramElement="KFYuST6GAqAMASGS" geometry="850,521;733,498;" preferredShapeType="Generalization" subject="sX2d9T6GAqAMAQkh" toDiagramElement="YeKOST6GAqAMASEE" xmi:id="SX2d9T6GAqAMAQki">
 					<xmi:Extension extender="Visual Paradigm">
-						<captionBounds value="0,0,134,55"/>
+						<captionBounds value="795,508,20,0"/>
 						<captionInternalWidth value="-2147483648"/>
 						<captionInternalHeight value="-2147483648"/>
 						<captionVisible value="true"/>
-						<captionSide value="6"/>
+						<captionSide value="1"/>
 						<properties>
-							<azOrder value="4"/>
-							<abackground value="Cr:122,207,245,255"/>
+							<azOrder value="92"/>
+							<abackground value="Cr:255,255,255,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
+							<acreatorDiagramType value="UseCaseDiagram"/>
 							<aselectable value="true"/>
 							<arequestResetCaption value="false"/>
 							<arequestResetCaptionSize value="false"/>
 							<arequestResetCaptionFitWidth value="false"/>
 							<amodelElementNameAlignment value="9"/>
-							<apresentationOption value="4"/>
-							<aprimitiveShapeType value="0"/>
-							<ashowStereotypeIconName value="0"/>
-							<ashowAllocatedFrom value="0"/>
-							<ashowAllocatedTo value="0"/>
-							<aoverrideAppearanceWithStereotypeIcon value="true"/>
-							<arequestSetSizeOption value="0"/>
-							<aparentConnectorHeaderLength value="40"/>
-							<aparentConnectorLineLength value="10"/>
-							<aconnectToPoint value="true"/>
-							<aparentConnectorDTheta value="0.0"/>
-							<aconnectionPointType value="2"/>
-							<acoverConnector value="false"/>
-							<arequestDefaultSize value="false"/>
-							<arequestFitSize value="false"/>
-							<arequestFitSizeFromCenter value="false"/>
-							<ashowExtensionPoint value="true"/>
-							<adisplayOption value="3"/>
+							<aconnectorStyle value="3"/>
+							<aconnectorLineJumps value="4"/>
+							<aconnectorLabelOrientation value="4"/>
+							<afromShapeXDiff value="0"/>
+							<afromShapeYDiff value="0"/>
+							<atoShapeXDiff value="0"/>
+							<atoShapeYDiff value="0"/>
+							<afromConnectType value="0"/>
+							<atoConnectType value="0"/>
+							<auseFromShapeCenter value="true"/>
+							<auseToShapeCenter value="true"/>
+							<afromPinType value="2"/>
+							<atoPinType value="1"/>
+							<afromPinRatio value="Pt:0.25,0.0"/>
+							<arequestRebuild value="false"/>
+							<arequestRebuildFromEnd value="false"/>
+							<arequestRebuildToEnd value="false"/>
+							<ashowConnectorName value="2"/>
+							<apaintThroughLabel value="2"/>
 						</properties>
 					</xmi:Extension>
-					<elementFill color1="Cr:122,207,245,0" color2="" style="1" transparency="100" type="1"/>
 					<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 					<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 				</uml:DiagramElement>
-				<uml:DiagramElement geometry="892,565,125,55" preferredShapeType="UseCase" subject="yC3t9T6GAqAMAQjT" xmi:id="yC3t9T6GAqAMAQjS">
+				<uml:DiagramElement fromDiagramElement="KFYuST6GAqAMASGS" geometry="901,523;982,443;" preferredShapeType="Generalization" subject="UPOd9T6GAqAMAQkl" toDiagramElement="XNrOST6GAqAMASFa" xmi:id="iPOd9T6GAqAMAQkm">
 					<xmi:Extension extender="Visual Paradigm">
-						<captionBounds value="0,0,127,57"/>
+						<captionBounds value="942,485,20,0"/>
+						<captionInternalWidth value="-2147483648"/>
+						<captionInternalHeight value="-2147483648"/>
+						<captionVisible value="true"/>
+						<captionSide value="1"/>
+						<properties>
+							<azOrder value="94"/>
+							<abackground value="Cr:255,255,255,255"/>
+							<aforeground value="Cr:0,0,0,255"/>
+							<acreatorDiagramType value="UseCaseDiagram"/>
+							<aselectable value="true"/>
+							<arequestResetCaption value="false"/>
+							<arequestResetCaptionSize value="false"/>
+							<arequestResetCaptionFitWidth value="false"/>
+							<amodelElementNameAlignment value="9"/>
+							<aconnectorStyle value="3"/>
+							<aconnectorLineJumps value="4"/>
+							<aconnectorLabelOrientation value="4"/>
+							<afromShapeXDiff value="0"/>
+							<afromShapeYDiff value="0"/>
+							<atoShapeXDiff value="0"/>
+							<atoShapeYDiff value="0"/>
+							<afromConnectType value="0"/>
+							<atoConnectType value="0"/>
+							<auseFromShapeCenter value="true"/>
+							<auseToShapeCenter value="true"/>
+							<afromPinType value="2"/>
+							<atoPinType value="1"/>
+							<afromPinRatio value="Pt:0.762499988079071,0.0625"/>
+							<arequestRebuild value="false"/>
+							<arequestRebuildFromEnd value="false"/>
+							<arequestRebuildToEnd value="false"/>
+							<ashowConnectorName value="2"/>
+							<apaintThroughLabel value="2"/>
+						</properties>
+					</xmi:Extension>
+					<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+					<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+				</uml:DiagramElement>
+				<uml:DiagramElement geometry="825,613,100,40" preferredShapeType="UseCase" subject="46nxzT6GAqHgaUjU" xmi:id="Y6nxzT6GAqHgaUjT">
+					<xmi:Extension extender="Visual Paradigm">
+						<captionBounds value="0,0,100,40"/>
 						<captionInternalWidth value="-2147483648"/>
 						<captionInternalHeight value="-2147483648"/>
 						<captionVisible value="true"/>
@@ -16631,15 +16622,15 @@
 					<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 					<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 				</uml:DiagramElement>
-				<uml:DiagramElement fromDiagramElement="YeKOST6GAqAMASEE" geometry="771,473;771,553;" preferredShapeType="Include" subject="3A8d9T6GAqAMAQkE" toDiagramElement="Jlnt9T6GAqAMAQi3" xmi:id="gg8d9T6GAqAMAQkF">
+				<uml:DiagramElement fromDiagramElement="KFYuST6GAqAMASGS" geometry="876,561;876,613;" preferredShapeType="Include" subject="GQ_xzT6GAqHgaUjz" toDiagramElement="Y6nxzT6GAqHgaUjT" xmi:id="JQ_xzT6GAqHgaUj0">
 					<xmi:Extension extender="Visual Paradigm">
-						<captionBounds value="772,505,83,15"/>
+						<captionBounds value="877,578,83,15"/>
 						<captionInternalWidth value="-2147483648"/>
 						<captionInternalHeight value="-2147483648"/>
 						<captionVisible value="true"/>
 						<captionSide value="1"/>
 						<properties>
-							<azOrder value="94"/>
+							<azOrder value="96"/>
 							<abackground value="Cr:122,207,245,255"/>
 							<aforeground value="Cr:0,0,0,255"/>
 							<aselectable value="true"/>
@@ -16670,128 +16661,6 @@
 					<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 					<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 				</uml:DiagramElement>
-				<uml:DiagramElement fromDiagramElement="XNrOST6GAqAMASFa" geometry="1001,450;973,565;" preferredShapeType="Include" subject="4P8d9T6GAqAMAQkI" toDiagramElement="yC3t9T6GAqAMAQjS" xmi:id="8P8d9T6GAqAMAQkJ">
-					<xmi:Extension extender="Visual Paradigm">
-						<captionBounds value="912,498,83,15"/>
-						<captionInternalWidth value="-2147483648"/>
-						<captionInternalHeight value="-2147483648"/>
-						<captionVisible value="true"/>
-						<captionSide value="1"/>
-						<properties>
-							<azOrder value="96"/>
-							<abackground value="Cr:122,207,245,255"/>
-							<aforeground value="Cr:0,0,0,255"/>
-							<aselectable value="true"/>
-							<arequestResetCaption value="false"/>
-							<arequestResetCaptionSize value="false"/>
-							<arequestResetCaptionFitWidth value="false"/>
-							<amodelElementNameAlignment value="9"/>
-							<aconnectorStyle value="3"/>
-							<aconnectorLineJumps value="4"/>
-							<aconnectorLabelOrientation value="4"/>
-							<afromShapeXDiff value="0"/>
-							<afromShapeYDiff value="0"/>
-							<atoShapeXDiff value="0"/>
-							<atoShapeYDiff value="0"/>
-							<afromConnectType value="0"/>
-							<atoConnectType value="0"/>
-							<auseFromShapeCenter value="true"/>
-							<auseToShapeCenter value="true"/>
-							<afromPinType value="2"/>
-							<atoPinType value="1"/>
-							<afromPinRatio value="Pt:0.26829269528388977,0.9375"/>
-							<arequestRebuild value="false"/>
-							<arequestRebuildFromEnd value="false"/>
-							<arequestRebuildToEnd value="false"/>
-							<ashowConnectorName value="2"/>
-							<apaintThroughLabel value="2"/>
-						</properties>
-					</xmi:Extension>
-					<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-					<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-				</uml:DiagramElement>
-				<uml:DiagramElement fromDiagramElement="KFYuST6GAqAMASGS" geometry="851,650;826,605;" preferredShapeType="Generalization" subject="sX2d9T6GAqAMAQkh" toDiagramElement="Jlnt9T6GAqAMAQi3" xmi:id="SX2d9T6GAqAMAQki">
-					<xmi:Extension extender="Visual Paradigm">
-						<captionBounds value="841,628,20,0"/>
-						<captionInternalWidth value="-2147483648"/>
-						<captionInternalHeight value="-2147483648"/>
-						<captionVisible value="true"/>
-						<captionSide value="1"/>
-						<properties>
-							<azOrder value="98"/>
-							<abackground value="Cr:255,255,255,255"/>
-							<aforeground value="Cr:0,0,0,255"/>
-							<acreatorDiagramType value="UseCaseDiagram"/>
-							<aselectable value="true"/>
-							<arequestResetCaption value="false"/>
-							<arequestResetCaptionSize value="false"/>
-							<arequestResetCaptionFitWidth value="false"/>
-							<amodelElementNameAlignment value="9"/>
-							<aconnectorStyle value="3"/>
-							<aconnectorLineJumps value="4"/>
-							<aconnectorLabelOrientation value="4"/>
-							<afromShapeXDiff value="0"/>
-							<afromShapeYDiff value="0"/>
-							<atoShapeXDiff value="0"/>
-							<atoShapeYDiff value="0"/>
-							<afromConnectType value="0"/>
-							<atoConnectType value="0"/>
-							<auseFromShapeCenter value="true"/>
-							<auseToShapeCenter value="true"/>
-							<afromPinType value="2"/>
-							<atoPinType value="1"/>
-							<afromPinRatio value="Pt:0.25,0.0"/>
-							<arequestRebuild value="false"/>
-							<arequestRebuildFromEnd value="false"/>
-							<arequestRebuildToEnd value="false"/>
-							<ashowConnectorName value="2"/>
-							<apaintThroughLabel value="2"/>
-						</properties>
-					</xmi:Extension>
-					<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-					<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-				</uml:DiagramElement>
-				<uml:DiagramElement fromDiagramElement="KFYuST6GAqAMASGS" geometry="902,652;926,621;" preferredShapeType="Generalization" subject="UPOd9T6GAqAMAQkl" toDiagramElement="yC3t9T6GAqAMAQjS" xmi:id="iPOd9T6GAqAMAQkm">
-					<xmi:Extension extender="Visual Paradigm">
-						<captionBounds value="915,636,20,0"/>
-						<captionInternalWidth value="-2147483648"/>
-						<captionInternalHeight value="-2147483648"/>
-						<captionVisible value="true"/>
-						<captionSide value="1"/>
-						<properties>
-							<azOrder value="100"/>
-							<abackground value="Cr:255,255,255,255"/>
-							<aforeground value="Cr:0,0,0,255"/>
-							<acreatorDiagramType value="UseCaseDiagram"/>
-							<aselectable value="true"/>
-							<arequestResetCaption value="false"/>
-							<arequestResetCaptionSize value="false"/>
-							<arequestResetCaptionFitWidth value="false"/>
-							<amodelElementNameAlignment value="9"/>
-							<aconnectorStyle value="3"/>
-							<aconnectorLineJumps value="4"/>
-							<aconnectorLabelOrientation value="4"/>
-							<afromShapeXDiff value="0"/>
-							<afromShapeYDiff value="0"/>
-							<atoShapeXDiff value="0"/>
-							<atoShapeYDiff value="0"/>
-							<afromConnectType value="0"/>
-							<atoConnectType value="0"/>
-							<auseFromShapeCenter value="true"/>
-							<auseToShapeCenter value="true"/>
-							<afromPinType value="2"/>
-							<atoPinType value="1"/>
-							<afromPinRatio value="Pt:0.762499988079071,0.0625"/>
-							<arequestRebuild value="false"/>
-							<arequestRebuildFromEnd value="false"/>
-							<arequestRebuildToEnd value="false"/>
-							<ashowConnectorName value="2"/>
-							<apaintThroughLabel value="2"/>
-						</properties>
-					</xmi:Extension>
-					<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-					<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-				</uml:DiagramElement>
 			</uml:Diagram.element>
 		</uml:Diagram>
 	</uml:Model>
@@ -16805,8 +16674,7 @@
 	<A1E2_profile:Include base_Include="p86eST6GAqAMASIn" xmi:id="p86eST6GAqAMASIn_Include"/>
 	<A1E2_profile:Include base_Include="ArPeST6GAqAMASJs" xmi:id="ArPeST6GAqAMASJs_Include"/>
 	<A1E2_profile:Include base_Include="qtm.ST6GAqAMASLB" xmi:id="qtm.ST6GAqAMASLB_Include"/>
-	<A1E2_profile:Include base_Include="3A8d9T6GAqAMAQkE" xmi:id="3A8d9T6GAqAMAQkE_Include"/>
-	<A1E2_profile:Include base_Include="4P8d9T6GAqAMAQkI" xmi:id="4P8d9T6GAqAMAQkI_Include"/>
+	<A1E2_profile:Include base_Include="GQ_xzT6GAqHgaUjz" xmi:id="GQ_xzT6GAqHgaUjz_Include"/>
 	<A1E2_profile:Extend base_Extend="UQNOST6GAqAMASE_" xmi:id="UQNOST6GAqAMASE__Extend"/>
 	<A1E2_profile:Extend base_Extend="bXQ.ST6GAqAMASKC" xmi:id="bXQ.ST6GAqAMASKC_Extend"/>
 	<A1E2_profile:UseCase Assumptions="" Author="" Complexity="" ImplementationStatus="" Level="" Post-conditions="" Preconditions="" UseCaseStatus="" base_UseCase="YeKOST6GAqAMASEF" xmi:id="YeKOST6GAqAMASEF_UseCase"/>
@@ -16821,6 +16689,5 @@
 	<A1E2_profile:UseCase Assumptions="" Author="" Complexity="" ImplementationStatus="" Level="" Post-conditions="" Preconditions="" UseCaseStatus="" base_UseCase="So_eST6GAqAMASJ1" xmi:id="So_eST6GAqAMASJ1_UseCase"/>
 	<A1E2_profile:UseCase Assumptions="" Author="" Complexity="" ImplementationStatus="" Level="" Post-conditions="" Preconditions="" UseCaseStatus="" base_UseCase="4u8.ST6GAqAMASKY" xmi:id="4u8.ST6GAqAMASKY_UseCase"/>
 	<A1E2_profile:UseCase Assumptions="" Author="" Complexity="" ImplementationStatus="" Level="" Post-conditions="" Preconditions="" UseCaseStatus="" base_UseCase="aia.ST6GAqAMASK0" xmi:id="aia.ST6GAqAMASK0_UseCase"/>
-	<A1E2_profile:UseCase Assumptions="" Author="" Complexity="" ImplementationStatus="" Level="" Post-conditions="" Preconditions="" UseCaseStatus="" base_UseCase="Jlnt9T6GAqAMAQi4" xmi:id="Jlnt9T6GAqAMAQi4_UseCase"/>
-	<A1E2_profile:UseCase Assumptions="" Author="" Complexity="" ImplementationStatus="" Level="" Post-conditions="" Preconditions="" UseCaseStatus="" base_UseCase="yC3t9T6GAqAMAQjT" xmi:id="yC3t9T6GAqAMAQjT_UseCase"/>
+	<A1E2_profile:UseCase Assumptions="" Author="" Complexity="" ImplementationStatus="" Level="" Post-conditions="" Preconditions="" UseCaseStatus="" base_UseCase="46nxzT6GAqHgaUjU" xmi:id="46nxzT6GAqHgaUjU_UseCase"/>
 </xmi:XMI>
