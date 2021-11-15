@@ -13547,6 +13547,60 @@
 					<qualityScore value="-1"/>
 				</xmi:Extension>
 			</packagedElement>
+			<packagedElement isAbstract="false" isDerived="false" isLeaf="false" memberEnd="g0i_fz6GAqAMARXE g0i_fz6GAqAMARXG" name="gestionar" xmi:id="g0i_fz6GAqAMARXD" xmi:type="uml:Association">
+				<ownedEnd aggregation="none" association="g0i_fz6GAqAMARXD" isDerived="false" isDerivedUnion="false" isLeaf="false" isReadOnly="false" isStatic="false" name="" type="9kNNfz6GAqESAQ6_" xmi:id="g0i_fz6GAqAMARXE" xmi:type="uml:Property">
+					<xmi:Extension extender="Visual Paradigm">
+						<associationEnd/>
+						<qualifier>
+							<xmi:Extension extender="Visual Paradigm">
+								<vpumlChildModels>
+									<vpumlModel id="g0i_fz6GAqAMARXF" modelType="Qualifier">
+										<properties>
+											<property name="name" type="string" value=""/>
+											<property name="modelType" type="string" value="Qualifier"/>
+											<property name="documentation" type="htmlString" value=""/>
+											<property name="pmAuthor" type="string" value="marib"/>
+											<property name="pmCreateDateTime" type="string" value="1636365570753"/>
+											<property name="userIDLastNumericValue" type="int" value="0"/>
+											<property name="backlogActivityId" type="int" value="0"/>
+											<property name="qualityScore" type="int" value="-1"/>
+										</properties>
+									</vpumlModel>
+								</vpumlChildModels>
+							</xmi:Extension>
+						</qualifier>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+				</ownedEnd>
+				<ownedEnd aggregation="none" association="g0i_fz6GAqAMARXD" isDerived="false" isDerivedUnion="false" isLeaf="false" isNavigable="true" isReadOnly="false" isStatic="false" name="" type="UTt1fz6GAqESAQ3t" xmi:id="g0i_fz6GAqAMARXG" xmi:type="uml:Property">
+					<xmi:Extension extender="Visual Paradigm">
+						<associationEnd/>
+						<qualifier>
+							<xmi:Extension extender="Visual Paradigm">
+								<vpumlChildModels>
+									<vpumlModel id="g0i_fz6GAqAMARXH" modelType="Qualifier">
+										<properties>
+											<property name="name" type="string" value=""/>
+											<property name="modelType" type="string" value="Qualifier"/>
+											<property name="documentation" type="htmlString" value=""/>
+											<property name="pmAuthor" type="string" value="marib"/>
+											<property name="pmCreateDateTime" type="string" value="1636365570753"/>
+											<property name="userIDLastNumericValue" type="int" value="0"/>
+											<property name="backlogActivityId" type="int" value="0"/>
+											<property name="qualityScore" type="int" value="-1"/>
+										</properties>
+									</vpumlModel>
+								</vpumlChildModels>
+							</xmi:Extension>
+						</qualifier>
+						<qualityScore value="-1"/>
+					</xmi:Extension>
+					<upperValue value="*" xmi:id="g0i_fz6GAqAMARXG_multiplicity_upperValue" xmi:type="uml:LiteralString"/>
+				</ownedEnd>
+				<xmi:Extension extender="Visual Paradigm">
+					<qualityScore value="-1"/>
+				</xmi:Extension>
+			</packagedElement>
 			<packagedElement isAbstract="false" isDerived="false" isLeaf="false" memberEnd="B4tdfz6GAqESAQ_6 h4tdfz6GAqESAQ_8" xmi:id="B4tdfz6GAqESAQ_5" xmi:type="uml:Association">
 				<ownedEnd aggregation="none" association="B4tdfz6GAqESAQ_5" isDerived="false" isDerivedUnion="false" isLeaf="false" isNavigable="true" isReadOnly="false" isStatic="false" name="" type="Kj3Nfz6GAqESAQ8y" xmi:id="B4tdfz6GAqESAQ_6" xmi:type="uml:Property">
 					<xmi:Extension extender="Visual Paradigm">
@@ -13922,7 +13976,7 @@
 					<ashowAllocatedTo value="true"/>
 					<apmAuthor value="aruiz"/>
 					<apmCreateDateTime value="1635856186454"/>
-					<apmLastModified value="1636364977589"/>
+					<apmLastModified value="1636365599746"/>
 					<ateamworkCreateDateTime value="0"/>
 					<ashowShapeLegend value="false"/>
 					<ashowConnectorLegend value="false"/>
@@ -13967,8 +14021,8 @@
 					<amaximized value="false"/>
 					<ax value="0"/>
 					<ay value="0"/>
-					<awidth value="200"/>
-					<aheight value="200"/>
+					<awidth value="0"/>
+					<aheight value="0"/>
 					<aqualityScore value="-1"/>
 					<aparentModel value="J6u1fz6GAqESAQzC"/>
 					<a_globalPaletteOption value="true"/>
@@ -13997,6 +14051,84 @@
 				</properties>
 			</xmi:Extension>
 			<uml:Diagram.element>
+				<uml:DiagramElement geometry="565,874,87,40" preferredShapeType="Class" subject="nyjXfz6GAqAMARTL" xmi:id="nyjXfz6GAqAMARTK">
+					<xmi:Extension extender="Visual Paradigm">
+						<captionBounds value="0,0,88,15"/>
+						<captionInternalWidth value="-2147483648"/>
+						<captionInternalHeight value="-2147483648"/>
+						<captionVisible value="true"/>
+						<captionSide value="12"/>
+						<properties>
+							<azOrder value="2"/>
+							<abackground value="Cr:122,207,245,255"/>
+							<aforeground value="Cr:0,0,0,255"/>
+							<acreatorDiagramType value="ClassDiagram"/>
+							<aselectable value="true"/>
+							<arequestResetCaption value="false"/>
+							<arequestResetCaptionSize value="false"/>
+							<arequestResetCaptionFitWidth value="false"/>
+							<amodelElementNameAlignment value="9"/>
+							<apresentationOption value="4"/>
+							<aprimitiveShapeType value="0"/>
+							<ashowStereotypeIconName value="0"/>
+							<ashowAllocatedFrom value="0"/>
+							<ashowAllocatedTo value="0"/>
+							<aoverrideAppearanceWithStereotypeIcon value="true"/>
+							<arequestSetSizeOption value="0"/>
+							<aparentConnectorHeaderLength value="40"/>
+							<aparentConnectorLineLength value="10"/>
+							<aconnectToPoint value="true"/>
+							<aparentConnectorDTheta value="0.0"/>
+							<aconnectionPointType value="2"/>
+							<acoverConnector value="false"/>
+							<arequestDefaultSize value="false"/>
+							<arequestFitSize value="false"/>
+							<arequestFitSizeFromCenter value="false"/>
+							<adisplayAsRobustnessAnalysisIcon value="true"/>
+							<avisibilityStyle value="1"/>
+							<ashowAttributeType value="1"/>
+							<ashowOperationType value="1"/>
+							<ashowReceptionType value="1"/>
+							<ashowEnumerationLiteralType value="1"/>
+							<amSwTpPts value="true"/>
+							<alshRfAts value="0"/>
+							<amShDrAt value="false"/>
+							<akShDrOp value="false"/>
+							<akSwCsMbSt value="true"/>
+							<ashowClassMemberConstraints value="true"/>
+							<alShCmMl value="false"/>
+							<ashowOperationParameterDirection value="false"/>
+							<ashowOperationRaisedExceptions value="false"/>
+							<ashowParameterNameInOperationSignature value="true"/>
+							<ashowOperationTemplateParameters value="false"/>
+							<ashowOperationProperties value="false"/>
+							<awpMbs value="false"/>
+							<aattributeSortType value="0"/>
+							<aoperationSortType value="0"/>
+							<areceptionSortType value="0"/>
+							<aenumerationLiteralSortType value="0"/>
+							<ashowInitialAttributeValue value="true"/>
+							<ashowOperationSignature value="true"/>
+							<ainterfaceBall value="false"/>
+							<ashowEmptyCompartments value="0"/>
+							<ashowEllipsisForUnshownMembers value="0"/>
+							<ashowAttributesCodeDetails value="0"/>
+							<ashowAttributesPropertyModifiers value="0"/>
+							<ashowOperationsCodeDetails value="0"/>
+							<ashowParametersCodeDetails value="0"/>
+							<ashowTypeOption value="0"/>
+							<ashowOwnerOption value="3"/>
+							<ashowAttributesType value="0"/>
+							<ashowOperationsParameters value="0"/>
+							<ashowOperationsReturnType value="0"/>
+							<asuppressImplied1MultiplicityForAttribute value="0"/>
+						</properties>
+					</xmi:Extension>
+					<elementFill color1="Cr:122,207,245,255" color2="" style="1" transparency="0" type="1"/>
+					<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+					<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+					<CompartmentFont value="none"/>
+				</uml:DiagramElement>
 				<uml:DiagramElement geometry="560,757,114,40" preferredShapeType="Class" subject="KOmzfz6GAqESARCw" xmi:id="KOmzfz6GAqESARCv">
 					<xmi:Extension extender="Visual Paradigm">
 						<captionBounds value="0,0,115,15"/>
@@ -16265,84 +16397,6 @@
 					<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
 					<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
 				</uml:DiagramElement>
-				<uml:DiagramElement geometry="565,874,87,40" preferredShapeType="Class" subject="nyjXfz6GAqAMARTL" xmi:id="nyjXfz6GAqAMARTK">
-					<xmi:Extension extender="Visual Paradigm">
-						<captionBounds value="0,0,88,15"/>
-						<captionInternalWidth value="-2147483648"/>
-						<captionInternalHeight value="-2147483648"/>
-						<captionVisible value="true"/>
-						<captionSide value="12"/>
-						<properties>
-							<azOrder value="2"/>
-							<abackground value="Cr:122,207,245,255"/>
-							<aforeground value="Cr:0,0,0,255"/>
-							<acreatorDiagramType value="ClassDiagram"/>
-							<aselectable value="true"/>
-							<arequestResetCaption value="false"/>
-							<arequestResetCaptionSize value="false"/>
-							<arequestResetCaptionFitWidth value="false"/>
-							<amodelElementNameAlignment value="9"/>
-							<apresentationOption value="4"/>
-							<aprimitiveShapeType value="0"/>
-							<ashowStereotypeIconName value="0"/>
-							<ashowAllocatedFrom value="0"/>
-							<ashowAllocatedTo value="0"/>
-							<aoverrideAppearanceWithStereotypeIcon value="true"/>
-							<arequestSetSizeOption value="0"/>
-							<aparentConnectorHeaderLength value="40"/>
-							<aparentConnectorLineLength value="10"/>
-							<aconnectToPoint value="true"/>
-							<aparentConnectorDTheta value="0.0"/>
-							<aconnectionPointType value="2"/>
-							<acoverConnector value="false"/>
-							<arequestDefaultSize value="false"/>
-							<arequestFitSize value="false"/>
-							<arequestFitSizeFromCenter value="false"/>
-							<adisplayAsRobustnessAnalysisIcon value="true"/>
-							<avisibilityStyle value="1"/>
-							<ashowAttributeType value="1"/>
-							<ashowOperationType value="1"/>
-							<ashowReceptionType value="1"/>
-							<ashowEnumerationLiteralType value="1"/>
-							<amSwTpPts value="true"/>
-							<alshRfAts value="0"/>
-							<amShDrAt value="false"/>
-							<akShDrOp value="false"/>
-							<akSwCsMbSt value="true"/>
-							<ashowClassMemberConstraints value="true"/>
-							<alShCmMl value="false"/>
-							<ashowOperationParameterDirection value="false"/>
-							<ashowOperationRaisedExceptions value="false"/>
-							<ashowParameterNameInOperationSignature value="true"/>
-							<ashowOperationTemplateParameters value="false"/>
-							<ashowOperationProperties value="false"/>
-							<awpMbs value="false"/>
-							<aattributeSortType value="0"/>
-							<aoperationSortType value="0"/>
-							<areceptionSortType value="0"/>
-							<aenumerationLiteralSortType value="0"/>
-							<ashowInitialAttributeValue value="true"/>
-							<ashowOperationSignature value="true"/>
-							<ainterfaceBall value="false"/>
-							<ashowEmptyCompartments value="0"/>
-							<ashowEllipsisForUnshownMembers value="0"/>
-							<ashowAttributesCodeDetails value="0"/>
-							<ashowAttributesPropertyModifiers value="0"/>
-							<ashowOperationsCodeDetails value="0"/>
-							<ashowParametersCodeDetails value="0"/>
-							<ashowTypeOption value="0"/>
-							<ashowOwnerOption value="3"/>
-							<ashowAttributesType value="0"/>
-							<ashowOperationsParameters value="0"/>
-							<ashowOperationsReturnType value="0"/>
-							<asuppressImplied1MultiplicityForAttribute value="0"/>
-						</properties>
-					</xmi:Extension>
-					<elementFill color1="Cr:122,207,245,255" color2="" style="1" transparency="0" type="1"/>
-					<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
-					<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
-					<CompartmentFont value="none"/>
-				</uml:DiagramElement>
 				<uml:DiagramElement fromDiagramElement="KOmzfz6GAqESARCv" geometry="608,797;608,874;" preferredShapeType="Generalization" subject="_HfXfz6GAqAMARTa" toDiagramElement="nyjXfz6GAqAMARTK" xmi:id="0nfXfz6GAqAMARTb">
 					<xmi:Extension extender="Visual Paradigm">
 						<captionBounds value="597,835,20,0"/>
@@ -16575,6 +16629,80 @@
 							<ahasRoleBShape value="false"/>
 							<ashowMultiplicityConstraints value="false"/>
 							<amultiplicityBRectangle value="Re:514.0,677.0,39.0,15.0"/>
+							<ahasMultiplicityAShape value="false"/>
+							<ahasMultiplicityBShape value="true"/>
+							<ashowOrderedMultiplicityConstraint value="true"/>
+							<ashowUniqueMultiplicityConstraint value="true"/>
+							<a0SwDr value="false"/>
+							<ashowStereotypes value="true"/>
+							<ashowFromRoleName value="true"/>
+							<ashowToRoleName value="true"/>
+							<ashowFromMultiplicity value="true"/>
+							<ashowToMultiplicity value="true"/>
+							<ashowFromRoleVisibility value="true"/>
+							<ashowToRoleVisibility value="true"/>
+							<ashowAssociationEndPropertyStrings value="false"/>
+							<ahasAssociationEndPropertyStringsAShape value="false"/>
+							<ahasAssociationEndPropertyStringsBShape value="false"/>
+							<afromRoleInternalWidth value="-2147483648"/>
+							<afromRoleInternalHeight value="-2147483648"/>
+							<atoRoleInternalWidth value="-2147483648"/>
+							<atoRoleInternalHeight value="-2147483648"/>
+							<afromMultiplicityInternalWidth value="-2147483648"/>
+							<afromMultiplicityInternalHeight value="-2147483648"/>
+							<atoMultiplicityInternalWidth value="-2147483648"/>
+							<atoMultiplicityInternalHeight value="-2147483648"/>
+							<aassociationEndPropertyStringsAInternalWidth value="-2147483648"/>
+							<aassociationEndPropertyStringsAInternalHeight value="-2147483648"/>
+							<aassociationEndPropertyStringsBInternalWidth value="-2147483648"/>
+							<aassociationEndPropertyStringsBInternalHeight value="-2147483648"/>
+							<asuppressImplied1MultiplicityForAssociationEnd value="0"/>
+							<ashowNavigationArrows value="0"/>
+						</properties>
+					</xmi:Extension>
+					<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+					<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+				</uml:DiagramElement>
+				<uml:DiagramElement fromDiagramElement="9kNNfz6GAqESAQ6." geometry="78,378;78,11;977,11;977,207;" preferredShapeType="Association" subject="g0i_fz6GAqAMARXD" toDiagramElement="kTt1fz6GAqESAQ3s" xmi:id="c0i_fz6GAqAMARXI">
+					<xmi:Extension extender="Visual Paradigm">
+						<captionBounds value="494,-2,66,15"/>
+						<captionInternalWidth value="-2147483648"/>
+						<captionInternalHeight value="-2147483648"/>
+						<captionVisible value="true"/>
+						<captionSide value="1"/>
+						<roleB multiplicity="950,188,26,15"/>
+						<properties>
+							<azOrder value="82"/>
+							<abackground value="Cr:122,207,245,255"/>
+							<aforeground value="Cr:0,0,0,255"/>
+							<acreatorDiagramType value="ClassDiagram"/>
+							<aselectable value="true"/>
+							<arequestResetCaption value="false"/>
+							<arequestResetCaptionSize value="false"/>
+							<arequestResetCaptionFitWidth value="false"/>
+							<amodelElementNameAlignment value="9"/>
+							<aconnectorStyle value="3"/>
+							<aconnectorLineJumps value="4"/>
+							<aconnectorLabelOrientation value="4"/>
+							<afromShapeXDiff value="0"/>
+							<afromShapeYDiff value="0"/>
+							<atoShapeXDiff value="0"/>
+							<atoShapeYDiff value="0"/>
+							<afromConnectType value="0"/>
+							<atoConnectType value="0"/>
+							<auseFromShapeCenter value="true"/>
+							<auseToShapeCenter value="true"/>
+							<afromPinType value="1"/>
+							<atoPinType value="1"/>
+							<arequestRebuild value="false"/>
+							<arequestRebuildFromEnd value="false"/>
+							<arequestRebuildToEnd value="false"/>
+							<ashowConnectorName value="2"/>
+							<apaintThroughLabel value="2"/>
+							<ahasRoleAShape value="false"/>
+							<ahasRoleBShape value="false"/>
+							<ashowMultiplicityConstraints value="false"/>
+							<amultiplicityBRectangle value="Re:950.0,188.0,26.0,15.0"/>
 							<ahasMultiplicityAShape value="false"/>
 							<ahasMultiplicityBShape value="true"/>
 							<ashowOrderedMultiplicityConstraint value="true"/>
