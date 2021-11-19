@@ -13235,8 +13235,6 @@
 					<xmi:Extension extender="Visual Paradigm">
 						<attribute/>
 						<isVisble xmi:value="true"/>
-						<hasSetter xmi:value="true"/>
-						<hasGetter xmi:value="true"/>
 						<qualityScore value="-1"/>
 					</xmi:Extension>
 				</ownedAttribute>
@@ -13244,8 +13242,6 @@
 					<xmi:Extension extender="Visual Paradigm">
 						<attribute/>
 						<isVisble xmi:value="true"/>
-						<hasSetter xmi:value="true"/>
-						<hasGetter xmi:value="true"/>
 						<qualityScore value="-1"/>
 					</xmi:Extension>
 				</ownedAttribute>
@@ -13253,8 +13249,6 @@
 					<xmi:Extension extender="Visual Paradigm">
 						<attribute/>
 						<isVisble xmi:value="true"/>
-						<hasSetter xmi:value="true"/>
-						<hasGetter xmi:value="true"/>
 						<qualityScore value="-1"/>
 					</xmi:Extension>
 				</ownedAttribute>
@@ -13418,8 +13412,6 @@
 					<xmi:Extension extender="Visual Paradigm">
 						<attribute/>
 						<isVisble xmi:value="true"/>
-						<hasSetter xmi:value="true"/>
-						<hasGetter xmi:value="true"/>
 						<qualityScore value="-1"/>
 					</xmi:Extension>
 				</ownedAttribute>
@@ -13502,8 +13494,6 @@
 					<xmi:Extension extender="Visual Paradigm">
 						<attribute/>
 						<isVisble xmi:value="true"/>
-						<hasSetter xmi:value="true"/>
-						<hasGetter xmi:value="true"/>
 						<qualityScore value="-1"/>
 					</xmi:Extension>
 				</ownedAttribute>
@@ -13617,8 +13607,6 @@
 					<xmi:Extension extender="Visual Paradigm">
 						<attribute/>
 						<isVisble xmi:value="true"/>
-						<hasSetter xmi:value="true"/>
-						<hasGetter xmi:value="true"/>
 						<qualityScore value="-1"/>
 					</xmi:Extension>
 				</ownedAttribute>
@@ -13626,8 +13614,6 @@
 					<xmi:Extension extender="Visual Paradigm">
 						<attribute/>
 						<isVisble xmi:value="true"/>
-						<hasSetter xmi:value="true"/>
-						<hasGetter xmi:value="true"/>
 						<qualityScore value="-1"/>
 					</xmi:Extension>
 				</ownedAttribute>
@@ -13742,8 +13728,6 @@
 					<xmi:Extension extender="Visual Paradigm">
 						<attribute/>
 						<isVisble xmi:value="true"/>
-						<hasSetter xmi:value="true"/>
-						<hasGetter xmi:value="true"/>
 						<qualityScore value="-1"/>
 					</xmi:Extension>
 				</ownedAttribute>
