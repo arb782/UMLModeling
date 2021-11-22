@@ -1,10 +1,16 @@
 package actividad2ejercicio5;
 
+import java.util.*;
+
 public class Edificio {
 
 	private int numPlantas;
 	private int numDispositivos;
 	private int numUsuarios;
+
+	Collection<Planta> plantas;
+	Collection<Dispositivo> dispositivos;
+	Collection<Usuario> usuarios;
 
 	public int getNumPlantas() {
 		return this.numPlantas;
