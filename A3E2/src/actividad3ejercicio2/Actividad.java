@@ -4,8 +4,8 @@ import java.util.*;
 
 public class Actividad {
 
-	Collection<ActividadResuelta> actResueltas;
-	Collection<Test> tests;
+	List<ActividadResuelta> actResueltas;
+	List<Test> tests;
 	private double notaMaxima;
 	private int testTotales;
 
@@ -30,6 +30,9 @@ public class Actividad {
 	}
 
 	public void crearTests() {
-		throw new UnsupportedOperationException();
+		for (int i = 0; i < this.testTotales; i++) {
+			Test nuevoTest=new Test();
+			this.agregarTest(nuevoTest);
+		}
 	}
 }

@@ -4,9 +4,9 @@ import java.util.*;
 
 public class Asignatura {
 
-	Collection<Examen> examenes;
-	Collection<Actividad> actividades;
-	Collection<Estudiante> estudiantes;
+	List<Examen> examenes;
+	List<Actividad> actividades;
+	List<Estudiante> estudiantes;
 	private int numExamen;
 
 	public String buscarExamen(int numPreguntas, double tiempo) {
@@ -22,7 +22,17 @@ public class Asignatura {
 	}
 
 	public void crearActividad(TipoActividad tipoActividad) {
-		throw new UnsupportedOperationException();
+		Actividad nuevaActividad= new Actividad();
+		
+		if (tipoActividad==TipoActividad.A1) {
+			nuevaActividad.setTestTotales(5);
+		}else if (tipoActividad==TipoActividad.A2) {
+			nuevaActividad.setTestTotales(10);
+		}else if (tipoActividad==TipoActividad.A3){
+			nuevaActividad.setTestTotales(15);
+		}
+		nuevaActividad.crearTests();
+		this.agregarActividad(nuevaActividad);
 	}
 
 	private void agregarActividad(Actividad act) {
