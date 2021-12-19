@@ -10,7 +10,29 @@ public class Asignatura {
 	private int numExamen;
 
 	public String buscarExamen(int numPreguntas, double tiempo) {
-		throw new UnsupportedOperationException();
+		String resultado= "No encontrado";
+		TipoExamen tipoExamen;
+		if (numPreguntas<=5) {
+			tipoExamen= TipoExamen.A;
+		}else if (numPreguntas<=10) {
+			tipoExamen= TipoExamen.B;
+		}else {
+			tipoExamen= TipoExamen.C;
+		}
+		int numExam=this.getNumExamen();
+		boolean finalizar= false; 
+		for (int i = 0; i < numExam; i++) {
+			Examen examen= this.examenes.get(i);
+			TipoExamen tipo=examen.getTipo();
+			if (tipo==tipoExamen) {
+				boolean encontrado = examen.buscarExResuelto(tiempo);
+				if (encontrado) {
+					resultado= examen.getId();
+					break;
+				}
+			}
+		}
+		return resultado;
 	}
 
 	public int getNumExamen() {

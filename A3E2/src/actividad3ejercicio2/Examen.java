@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Examen {
 
-	Collection<ExamenResuelto> exResueltos;
+	List<ExamenResuelto> exResueltos;
 	private String id;
 	private TipoExamen tipo;
 	private int numExResueltos;
@@ -26,7 +26,15 @@ public class Examen {
 	}
 
 	public boolean buscarExResuelto(double tiempo) {
-		throw new UnsupportedOperationException();
+		int exResuelto=this.getNumExResueltos();
+		for (int i = 0; i < exResuelto; i++) {
+			ExamenResuelto examen= exResueltos.get(i);
+			double tiempoRes= examen.getTiempoTotal();
+			if (tiempoRes<tiempo) {
+				return true;
+			}
+		}
+		return false;
 	}
 
 	public int getNumExResueltos() {
