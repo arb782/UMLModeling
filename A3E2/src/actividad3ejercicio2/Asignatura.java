@@ -12,6 +12,7 @@ public class Asignatura {
 	public String buscarExamen(int numPreguntas, double tiempo) {
 		String resultado= "No encontrado";
 		TipoExamen tipoExamen;
+		
 		if (numPreguntas<=5) {
 			tipoExamen= TipoExamen.A;
 		}else if (numPreguntas<=10) {
@@ -19,8 +20,8 @@ public class Asignatura {
 		}else {
 			tipoExamen= TipoExamen.C;
 		}
+		
 		int numExam=this.getNumExamen();
-		boolean finalizar= false; 
 		for (int i = 0; i < numExam; i++) {
 			Examen examen= this.examenes.get(i);
 			TipoExamen tipo=examen.getTipo();
@@ -53,6 +54,7 @@ public class Asignatura {
 		}else if (tipoActividad==TipoActividad.A3){
 			nuevaActividad.setTestTotales(15);
 		}
+		
 		nuevaActividad.crearTests();
 		this.agregarActividad(nuevaActividad);
 	}

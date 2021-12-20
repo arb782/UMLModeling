@@ -6,18 +6,18 @@ public class ActividadResuelta {
 
 	Actividad actividad;
 	List<EjActividadResuelta> ejResueltos;
-	private int numEjercicio;
+	private int numEjercicios;
 
-	public int getNumEjercicio() {
-		return this.numEjercicio;
+	public int getNumEjercicios() {
+		return this.numEjercicios;
 	}
 
-	public void setNumEjercicio(int numEjercicio) {
-		this.numEjercicio = numEjercicio;
+	public void setNumEjercicios(int numEjercicios) {
+		this.numEjercicios = numEjercicios;
 	}
 
 	public int contarEjercicios(double nota) {
-		int numEjercicios= this.getNumEjercicio();
+		int numEjercicios= this.getNumEjercicios();
 		int ejSuperados=0;
 		
 		for (int i = 0; i < numEjercicios; i++) {

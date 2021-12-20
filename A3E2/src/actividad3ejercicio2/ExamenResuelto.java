@@ -5,7 +5,7 @@ import java.util.*;
 public class ExamenResuelto {
 
 	Examen examen;
-	Collection<EjExamenResuelto> ejResueltos;
+	List<EjExamenResuelto> ejResueltos;
 	private double tiempoTotal;
 
 	public double getTiempoTotal() {
